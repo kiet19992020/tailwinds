@@ -1,0 +1,28 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 3
+    },
+    "assert": {
+      "assertMatrix": [
+        {
+          "matchingUrlPattern": ".*",
+          "assertions": {
+            "categories:performance": ["error", {"minScore": 0.99}]
+          }
+        },
+        {
+          "matchingUrlPattern": "http://[^/]+/index.html",
+          "assertions": {
+            "categories:performance": ["error", {"minScore": 0.95}]
+          }
+        }
+      ]
+    },
+    "upload": {
+      "target": "lhci",
+      "serverBaseUrl": "http://3.15.95.119/",
+      "token":"f4757f19-71fc-4a6a-9a4a-bb963cc98714"
+    }
+  }
+}

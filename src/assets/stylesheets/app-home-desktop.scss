@@ -1,0 +1,25 @@
+// Override bootstrap variables ---
+@import 'core/base/setting';
+// include module bootstrap ---
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+// $grid-breakpoints: (xs: $col-xs, sm: $col-sm, md: $col-md, lg: $col-lg, sl:$col-sl, xl: $col-xl);
+
+// mixins, placehoder custom ---
+@import 'core/base/mixins';
+@import 'core/base/placehoder';
+
+// base desktop ---
+@import 'core/base-desktop/custom';
+// @import 'core/base-desktop/space';
+// @import 'core/base-desktop/button';
+
+// lib desktop ---
+// @import 'core/lib-desktop/popup';
+// @import 'core/lib-desktop/animationPage';
+
+// module desktop ---
+@import 'modules-desktop/global/*.scss';
+@import 'modules-desktop/*.scss';
+

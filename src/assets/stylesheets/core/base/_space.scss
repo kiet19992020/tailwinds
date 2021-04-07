@@ -1,0 +1,8 @@
+// space-0 => 200
+@for $i from 0 through 20 {
+  $height: $i*10;
+
+  .space-#{$height} {
+    height: $height+px;
+  }
+}

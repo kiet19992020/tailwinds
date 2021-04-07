@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="35px" height="43px" viewbox="0 0 35 43" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.10980392 0 0 0 0 0.60784316 0 0 0 0 0.8392157 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="noun_Document_113094" filter="url(#filter_1)">
+    <path d="M33.9706 43L1.02941 43C0.460428 43 0 42.5421 0 41.9762L0 1.02381C0 0.458667 0.460428 0 1.02941 0L33.9706 0C34.5396 0 35 0.458667 35 1.02381L35 41.9762C35 42.5421 34.5396 43 33.9706 43ZM2.05882 40.9524L32.9412 40.9524L32.9412 2.04762L2.05882 2.04762L2.05882 40.9524Z" id="Shape" fill="#000000" stroke="none" />
+    <path d="M21.9826 2L1.01744 2C0.455072 2 0 1.552 0 1C0 0.448 0.455072 0 1.01744 0L21.9826 0C22.5449 0 23 0.448 23 1C23 1.552 22.5449 2 21.9826 2Z" transform="translate(6 6)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M22.2418 1L0.75825 1C0.338938 1 0 0.776 0 0.5C0 0.224 0.338938 0 0.75825 0L22.2418 0C22.6611 0 23 0.224 23 0.5C23 0.776 22.6611 1 22.2418 1Z" transform="translate(6 11)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M22.2418 1L0.75825 1C0.338938 1 0 0.776 0 0.5C0 0.224 0.338938 0 0.75825 0L22.2418 0C22.6611 0 23 0.224 23 0.5C23 0.776 22.6611 1 22.2418 1Z" transform="translate(6 16)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M22.2418 1L0.75825 1C0.338938 1 0 0.7765 0 0.5C0 0.224 0.338938 0 0.75825 0L22.2418 0C22.6611 0 23 0.224 23 0.5C23 0.7765 22.6611 1 22.2418 1Z" transform="translate(6 20)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M22.2418 1L0.75825 1C0.338938 1 0 0.7765 0 0.5C0 0.2235 0.338938 0 0.75825 0L22.2418 0C22.6611 0 23 0.2235 23 0.5C23 0.7765 22.6611 1 22.2418 1Z" transform="translate(6 25)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M22.2418 1L0.75825 1C0.338938 1 0 0.7765 0 0.5C0 0.2235 0.338938 0 0.75825 0L22.2418 0C22.6611 0 23 0.2235 23 0.5C23 0.7765 22.6611 1 22.2418 1Z" transform="translate(6 30)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M22.2418 1L0.75825 1C0.338938 1 0 0.7765 0 0.5C0 0.2235 0.338938 0 0.75825 0L22.2418 0C22.6611 0 23 0.2235 23 0.5C23 0.7765 22.6611 1 22.2418 1Z" transform="translate(6 35)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

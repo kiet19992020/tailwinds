@@ -1,0 +1,49 @@
+@include media-breakpoint-up(lg) {
+  .main-menu-ul {
+    padding: 0;
+
+    >li {
+      font-size: 1em;
+
+      >a {
+        padding: 18px 15px;
+      }
+
+      &:hover {
+        .main-menu-dropdown {
+          display: block;
+        }
+      }
+    }
+
+    .mega-dropdown {
+      position: static;
+    }
+  }
+
+  .main-menu-dropdown {
+    min-width: 200px;
+    width: 100%;
+    margin: 0;
+    // font-size: 1em;
+    // border: none;
+    background-color: $white;
+    box-shadow: 2px 9px 18px -6px rgba(0, 0, 0, .22);
+
+    .menu-child {
+      display: block;
+    }
+  }
+
+  .navbar {
+    position: static;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .main-menu-ul>li {
+    >a {
+      padding: 22px 25px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.mod-theme-old {
+  background-color: #18e7c3;
+}
+.theme-old {
+  z-index: 1;
+}
+.table-old {
+  height: 518px;
+}
+.bg-old {
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.table-cell-old {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1 {
+  color: $white;
+}
+
+a {
+  text-decoration: none !important;
+}

@@ -1,0 +1,58 @@
+$time: .6s;
+$translate: 100px;
+
+.border {
+  border: 1px solid $blue;
+}
+
+@include media-breakpoint-up(lg) {
+  .animation {
+
+    &.ani-opacity,
+    &.ani-left,
+    &.ani-right,
+    &.ani-top,
+    &.ani-bottom {
+      opacity: 0;
+    }
+
+    &.ani-left {
+      transform: translate3d(-$translate, 0, 0);
+    }
+
+    &.ani-right {
+      transform: translate3d($translate, 0, 0);
+    }
+
+    &.ani-bottom {
+      transform: translate3d(0, $translate, 0);
+    }
+
+    &.ani-top {
+      transform: translate3d(0, -$translate, 0);
+    }
+
+    &.set-animation {
+      transform: none;
+      opacity: 1;
+      transition: all $time;
+
+      @for $i from 1 through 8 {
+        $delay: $i*.1;
+
+        .delay-#{$i},
+        &.delay-#{$i} {
+          transition-delay: $delay+s;
+        }
+      }
+    }
+  }
+}
+
+.no-animation {
+  .animation {
+    transform: none;
+    opacity: 1;
+    transition: none;
+  }
+}

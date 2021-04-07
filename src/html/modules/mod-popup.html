@@ -1,0 +1,126 @@
+<h3>Custom popup js</h3>
+
+<a
+  href="javascript:;"
+  data-id="#content-popup"
+  data-htmlclass="html-popup-content"
+  class="btn btn-primary popup-is-open text-decoration-none has-popup"
+  >Popup-is-open Image</a
+>
+
+<a
+  href="javascript:;"
+  data-id="#content-popup2"
+  data-htmlclass="html-popup-content"
+  class="btn btn-primary popup-is-open text-decoration-none has-popup"
+  >Popup-is-open content</a
+>
+
+<a
+  href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1&amp;autohide=1&amp;fs=1&amp;rel=0&amp;hd=1&amp;wmode=transparent&amp;enablejsapi=1&amp;html5=1"
+  data-id=""
+  data-popup="video"
+  data-htmlclass="html-popup-video"
+  class="btn btn-primary popup-is-open text-decoration-none has-popup"
+  allow="autoplay"
+  >Popup-is-open video</a
+>
+
+<a
+  href="javascript:;"
+  data-id="#content-popup4"
+  data-htmlclass="html-popup-content"
+  class="btn btn-primary popup-is-open text-decoration-none has-popup"
+  >Popup-is-open not content</a
+>
+
+<a
+  href="javascript:;"
+  data-id="#content-popup3"
+  data-popup="garally"
+  data-htmlclass="html-popup-garally"
+  class="btn btn-primary popup-is-open text-decoration-none has-popup"
+  >Popup-is-open garally</a
+>
+
+<a
+  href="javascript:;"
+  data-id="#content-popup5"
+  data-htmlclass="html-popup-content"
+  class="btn btn-primary popup-is-open text-decoration-none has-popup"
+  >Popup-is-open popup static</a
+>
+
+<div class="space-50"></div>
+
+<div id="content-popup" data-content="width-auto container" class="d-none">
+  <div class="popup-inner">
+    <img
+      class="lazy"
+      src="{{imagesBase64}}"
+      data-src="//cdn.agilitycms.com/9th-wonder/MediaGroupings/15/nha-trang-16.jpg"
+      alt="name image"
+    />
+  </div>
+</div>
+
+<div id="content-popup2" class="d-none">
+  <div class="container popup-inner">
+    <div class="p-5">
+      <h2>Headline style h2</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="content-popup3" data-content="" class="d-none">
+  <div class="container popup-inner">
+    <div class="gallary-silder">
+      <div class="gallary-item">
+        <img
+          class="lazy"
+          src="{{imagesBase64}}"
+          data-src="//cdn.agilitycms.com/9th-wonder/MediaGroupings/15/nha-trang-16.jpg"
+          alt="name image"
+        />
+      </div>
+      <div class="gallary-item">
+        <img
+          class="lazy"
+          src="{{imagesBase64}}"
+          data-src="//cdn.agilitycms.com/9th-wonder/MediaGroupings/15/nha-trang-16.jpg"
+          alt="name image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+<div id="content-popup5" data-content="" class="mod-popup-static">
+  <div class="popup-container ps-as">
+    <div class="popup-content container">
+      <div class="mask-pop-overlay"></div>
+      <div class="container popup-inner">
+        <div class="p-5">
+          <h2>Headline style h2 static</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries
+          </p>
+        </div>
+        <a href="javascript:;" class="popup-is-close text-decoration-none">
+          <span class="icomoon icon-close"></span>
+          <span class="sr-only">Close Popup</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

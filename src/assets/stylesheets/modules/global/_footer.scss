@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 80px;
+
+  // @extend %parent-link-inhert;
+  address {
+    line-height: 2.4;
+
+    a {
+      line-height: 1.5;
+      display: inline-block;
+    }
+  }
+
+  h5 a,
+  li a {
+    text-decoration: none;
+  }
+}
+
+.footer-item-col {
+  //css
+}
+
+.footer-menu {
+  margin-bottom: 50px;
+
+  li {
+    line-height: (20/14);
+    margin-bottom: 20px;
+  }
+
+}
+
+.footer-copyright {
+  @extend %parent-link-inhert;
+}

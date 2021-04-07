@@ -1,0 +1,57 @@
+<div  id="footer" class="module p-5 footer text-center bg-black text-white">
+  <div class="container footer-top mx-auto pt-10">
+    <div class="row flex flex-wrap" >
+      <div class="footer-item-col mr-13">
+        <img alt="TailWind" class="img-svg mx-auto flex align-items-center b-loaded" src="assets/images/logo.svg">
+      </div>
+      {% for i in [1, 2, 3,4] %}
+      <div class="footer-item-col mx-auto w-100 py-3 lg:text-left w-1/4 lg:w-1/6">
+        <h5 class="text-xs text-blue-light">
+          <a href="#">About Us</a>
+        </h5>
+        <ul class="list-unstyled footer-menu hidden lg:block">
+          <li>
+            <a href="#">Resources</a>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+          </li>
+        </ul>
+      </div>
+      {%endfor%}
+      <div class="footer-item-col ">
+        <h5 class="text-xs text-blue-light">
+          <a href="#">CONTACT </a>
+          <span class="ml-8 hidden">Contact 2</span>
+        </h5>
+        <address class="hidden lg:block">
+          <a href="mailto:mailname@gmail.com">mailname@gmail.com</a>
+          <br />
+          US Office
+          <a href="tel:+12819944600">+352 269 763 07</a>
+        </address>
+        <div class="social">
+          {% include "modules/global/social.html" %}
+        </div>
+        <div>
+          <button class="bg-transparent text-blue-light hover:bg-blue hover:text-white border border-blue-light py-2 px-8  mt-5 outline-none focus:shadow-outline">
+            TAKE A TOUR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container text-center bg-black text-white last-mb-none  pb-10 pt-10 " >
+    <p class="footer-copyright">
+      Copyright © 2018-2021 9thWonder |
+      <a href="#">Private Policy</a> |
+      <a href="#">Disclaimer</a>
+    </p>
+  </div>
+</footer>

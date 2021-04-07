@@ -1,0 +1,9 @@
+@include media-breakpoint-up(lg) {
+  @for $i from 0 through 20 {
+    $height: $i*10;
+
+    .space-dt-#{$height} {
+      height: $height+px;
+    }
+  }
+}

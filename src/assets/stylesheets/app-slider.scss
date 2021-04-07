@@ -1,0 +1,10 @@
+// Override bootstrap variables ---
+@import 'core/base/setting';
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+// import libs, plugin ---
+@import "slick-carousel/slick/slick.scss";
+@import 'core/lib/slick-theme';

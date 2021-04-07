@@ -1,0 +1,19 @@
+.row-2 {
+  @include row-padding(2);
+}
+
+.row-5 {
+  @include row-padding(5);
+}
+
+.row-8 {
+  @include row-padding(8);
+}
+
+.row-10 {
+  @include row-padding(10);
+}
+
+.row-13 {
+  @include row-padding(13);
+}

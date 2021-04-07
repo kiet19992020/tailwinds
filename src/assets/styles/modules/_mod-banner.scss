@@ -1,0 +1,31 @@
+// module 'Mod Banner'
+.mod-banner {
+  &::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(238, 238, 238, 0) -12%, white 83%);
+  }
+  &::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0) 12%, #1e5091  107%);
+  }
+  .banner-content {
+
+  }
+}

@@ -1,0 +1,138 @@
+// .wrapper {
+//   position: relative;
+// }
+
+.main-content {
+  padding-top: 60px;
+}
+
+.height-item {
+  margin-bottom: 30px;
+}
+
+.touch {
+  * {
+    cursor: pointer;
+  }
+}
+
+// .overlay-after {
+//   position: relative;
+//   z-index: 1;
+
+//   &::after {
+//     content: "";
+//     @extend %ps-as;
+//     z-index: -1;
+//     background-color: $black;
+//     opacity: .8;
+//   }
+// }
+
+// .link-inhert {
+//   @extend %link-inhert;
+// }
+
+// .parent-link-inhert {
+//   @extend %parent-link-inhert;
+// }
+
+.bg {
+  @include background-size(cover);
+}
+
+.bg-black {
+  background-color: $color-h;
+}
+
+.bg-bottom-center {
+  background-position: bottom center;
+}
+
+.bg-bottom-right {
+  background-position: bottom right;
+}
+
+.bg-bottom-left {
+  background-position: bottom left;
+}
+
+.bg-center {
+  background-position: center center;
+}
+
+.bg-top-left {
+  background-position: top left;
+}
+
+.bg-top-right {
+  background-position: top right;
+}
+
+// use class .bg-transparent
+
+// .no-bg {
+//   background: none !important;
+// }
+
+// .bg-inhert {
+//   background-color: inherit;
+// }
+
+// .bg-gray {
+//   background-color: $gray-500;
+// }
+
+.text-white {
+  @extend %color-white;
+}
+
+.ps-as {
+  @include position(absolute, 0, 0, 0, 0, 1);
+
+  &.bg {
+    z-index: -1;
+  }
+}
+
+.ps-rv {
+  position: relative;
+}
+
+.ps-stt {
+  position: static;
+}
+
+.d-table,
+.d-sm-table,
+.d-md-table,
+.d-lg-table {
+  table-layout: fixed;
+}
+
+// .text-center {
+//   ul,
+//   ol {
+//     padding-left: 0;
+//     li {
+//       list-style-position: inside;
+//     }
+//   }
+
+//   ul {
+//     display: table;
+//     margin-right: auto;
+//     margin-left: auto;
+//   }
+// }
+
+.last-mb-none {
+  @extend %last;
+}
+
+
+@include media-breakpoint-down(md) {
+  .hide-loader {
+    display: none;
+  }
+}

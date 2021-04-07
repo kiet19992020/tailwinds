@@ -1,0 +1,23 @@
+<header id="header" class="module header fixed lg:p-10 z-50 bg-white w-full" data-module="header">
+  <nav class="xl:container navbar navbar-expand-lg flex items-center ">
+    <div class="header-mobile row align-items-center flex-wrap">
+      <div class="col-9 col-lg-12">
+        <a id="header-logo" class="navbar-brand header-logo  justify-start" title="{{ title }}" href="index.html">
+          <img data-src="assets/images/logo.svg" alt="{{ title }}" class="lazy w-100 img-svg" />
+        </a>
+      </div>
+      <div class="col-3 text-right">
+        <button class="border-0 hamburger-menu" type="button" data-toggle="collapse" data-target="#main-menu"
+          aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icomoon icon-close"></span>
+          <span class="sr-only">Open Menu</span>
+        </button>
+      </div>
+    </div>
+    {% include "modules/global/menu.html" %}
+
+  </nav>
+</header>

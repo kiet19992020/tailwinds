@@ -1,0 +1,13 @@
+// Override bootstrap variables ---
+@import 'core/base/setting';
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+// mixins, placehoder custom ---
+@import 'core/base/mixins';
+@import 'core/base/placehoder';
+
+@import 'core/lib/popup';
+@import 'core/lib-desktop/popup';

@@ -1,0 +1,21 @@
+.social {
+
+  li {
+    padding: 0 19px 0 0;
+    line-height: 1;
+    vertical-align: top;
+
+  }
+
+  a {
+    display: block;
+    padding: 0;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}

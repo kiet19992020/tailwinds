@@ -1,0 +1,17 @@
+@layer base {
+
+  .theme-red {
+    --color-text-base: #ffffff;
+    --color-text-mute: #dc3545;
+    --color-fill: #dc3545;
+    --color-button-primary: #ffffff;
+    --color-button-primary-hover: #eef2ff;
+  }
+  .theme-cyan {
+    --color-text-base: #ffffff;
+    --color-text-mute: #18e7c3;
+    --color-fill: #18e7c3;
+    --color-button-primary: #ffffff;
+    --color-button-primary-hover: #eef2ff;
+  }
+}
