@@ -15,7 +15,7 @@ import 'modules/LazyLoadImage'
 import 'modules/UserAgent'
 import 'modules/Header'
 
-// import 'modules/Menu'
+import 'modules/Menu'
 
 import 'modules/CallModule'
 

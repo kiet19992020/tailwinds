@@ -32,6 +32,11 @@ module.exports = {
           'button-primary-hover': 'var(--color-button-primary-hover)'
         }
       },
+      fontFamily: {
+        body: ['Source Sans Pro'],
+        jost: ['Jost']
+
+      },
       zIndex: {
         '0': 0,
         'a-1': -1,

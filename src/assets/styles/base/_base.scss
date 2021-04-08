@@ -1,8 +1,46 @@
+.h1,
 h1 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1;
+  @apply text-6xl;
+  @apply font-light;
+  @apply font-jost;
 }
-a:hover {
-  color: #ff0000;
+h2,
+.h2 {
+  @apply text-5xl;
+  @apply font-light;
+  @apply font-jost;
+}
+h3,
+.h3 {
+  @apply text-3xl;
+  @apply font-body;
+  @apply font-normal;
+  letter-spacing: .31px;
+}
+
+h4,
+.h4 {
+  @apply text-4xl;
+  @apply font-semibold;
+  letter-spacing: .14px;
+  @apply font-jost;
+}
+h5,
+.h5 {
+  @apply text-3xl;
+  @apply font-jost;
+  @apply font-normal;
+
+}
+h6,
+.h6 {
+  @apply text-xl;
+  letter-spacing: .5px;
+  @apply font-normal;
+  @apply font-jost;
+}
+p {
+  @apply font-body;
+  @apply text-xs;
+  @apply font-normal;
 }

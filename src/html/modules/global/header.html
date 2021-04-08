@@ -1,18 +1,20 @@
-<header id="header" class="module header fixed lg:p-10 z-50 bg-white w-full" data-module="header">
-  <nav class="xl:container navbar navbar-expand-lg flex items-center ">
-    <div class="header-mobile row align-items-center flex-wrap">
-      <div class="col-9 col-lg-12">
+<header x-data="{ isOpen: false }"  id="header" class="module header p-4 z-50 bg-white w-full fixed lg:p-10 " data-module="header">
+  <nav class="lg:container navbar navbar-expand-lg lg:flex lg:items-center">
+    <div class="header-mobile row align-items-center sm:grid-cols-2 sm:gap-x-8 flex-wrap">
+      <div >
         <a id="header-logo" class="navbar-brand header-logo  justify-start" title="{{ title }}" href="index.html">
           <img data-src="assets/images/logo.svg" alt="{{ title }}" class="lazy w-100 img-svg" />
         </a>
       </div>
-      <div class="col-3 text-right">
-        <button class="border-0 hamburger-menu" type="button" data-toggle="collapse" data-target="#main-menu"
-          aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icomoon icon-close"></span>
+      <div class="text-right -mt-6">
+        <button class="border-0 inline-block md:hidden hamburger-menu" type="button" data-toggle="collapse" data-target="#main-menu"
+          aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation
+          @click ='isOpen = !isOpen'
+          ">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <!-- <span class="icomoon icon-close"></span> -->
           <span class="sr-only">Open Menu</span>
         </button>
       </div>

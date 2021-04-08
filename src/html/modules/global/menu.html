@@ -1,8 +1,8 @@
-<div class="navbar-collapse mx-auto main-menu"  id="main-menu" data-module="menu">
-  <ul class="main-menu-ul  text-blue-light navbar-nav flex">
-    <li class="active block lg:inline-block  has-sub mega-dropdown xl:border-r border-blue-light xl:text-sm font-medium py-2 px-5 xl:px-15">
+<div  x-show="isOpen" class="navbar-collapse hidden lg:block mx-auto main-menu"  id="main-menu" data-module="menu">
+  <ul class="main-menu-ul  text-blue-light uppercase font-jost navbar-nav lg:flex">
+    <li class="active block border-blue-light font-medium py-2 px-5  lg:inline-block  has-sub mega-dropdown xl:border-r  xl:text-sm xl:px-15">
       <a href="universal.html">Solutions</a>
-      <div class="nav-item-arrows arrows-lv1 d-lg-none">
+      <div class="nav-item-arrows float-right inline-block lg:hidden arrows-lv1 d-lg-none">
         <i class="icomoon icon-chevron-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown-menu main-menu-dropdown rounded-0 border-0 absolute hidden bg-white p-4">
@@ -58,12 +58,12 @@
         </div>
       </div>
     </li>
-    <li class="px-5 py-2 xl:px-15 block lg:inline-block xl:border-r border-blue-light xl:text-sm font-medium">
+    <li class="px-5 py-2  border-blue-light  block font-medium lg:inline-block xl:border-r lg:px-15 xl:text-sm ">
       <a href="page.html">Locations</a>
     </li class="px-5 xl:px-15">
-    <li class="has-sub xl:border-r block lg:inline-block border-blue-light  py-2 px-5 xl:px-15 xl:text-sm font-medium">
+    <li class="has-sub block font-medium border-blue-light  py-2 px-5  lg:inline-block xl:border-r  lg:px-15 xl:text-sm ">
       <a href="#">Resources</a>
-      <div class="nav-item-arrows arrows-lv1 d-lg-none">
+      <div class="nav-item-arrows float-right inline-block lg:hidden arrows-lv1 d-lg-none">
         <i class="icomoon icon-chevron-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown-menu main-menu-dropdown rounded-0 border-0 absolute hidden bg-white p-4">
@@ -89,17 +89,17 @@
         </ul>
       </div>
     </li>
-    <li class="px-5 py-2 xl:border-r block lg:inline-block border-blue-light xl:px-15 xl:text-sm font-medium">
+    <li class="px-5 py-2 block font-medium  border-blue-light lg:inline-block lg:px-15 xl:border-r xl:text-sm">
       <a href="#">About</a>
     </li>
-    <li class="px-5 py-2 xl:border-r block lg:inline-block border-blue-light xl:px-15 xl:text-sm font-medium">
+    <li class="px-5 py-2 border-blue-light  block font-medium lg:inline-block  xl:border-r lg:px-15 xl:text-sm ">
       <a href="#">Contact</a>
     </li>
-    <li class="px-5 py-2 block lg:inline-block  xl:px-15 xl:text-sm text-blue-dark font-semibold">
-      <a href="#">SIGN UP <i class="icomoon icon-facebook" aria-hidden="true"></i></a>
+    <li class="px-5 py-2 block text-blue-dark font-semibold lg:inline-block hidden lg:block lg:px-15 xl:text-sm">
+      <a href="#">SIGN UP <i class="icomoon icon-icon-search" aria-hidden="true"></i></a>
     </li>
-    <li class="px-5 block lg:inline-block  xl:px-15 xl:text-sm font-medium">
-      <button class="bg-white text-blue-light hover:bg-blue hover:text-white border border-blue-light py-2 px-10  outline-none focus:shadow-outline">
+    <li class="px-5 block font-medium lg:inline-block   lg:px-15 xl:text-md ">
+      <button class="bg-white text-blue-light font-bold hover:bg-blue hover:text-white border border-blue-light py-2 px-10  outline-none focus:shadow-outline">
         TAKE A TOUR</button>
     </li>
   </ul>
